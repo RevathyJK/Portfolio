@@ -1,0 +1,50 @@
+#allPage { 
+	width: 80%; 
+      margin: auto; 
+      max-width: 1200px; 
+      display: grid; 
+	/*grid-template-columns: 150px auto auto;
+	grid-template-rows: auto auto auto ; */
+}
+
+nav ul { 
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: nowrap; 
+    color: #FFFFFF;
+    position: absolute;
+}
+
+li{
+    list-style-type: U+027A2;
+}
+
+.navcustom{
+
+    width: 90%; 
+      margin: auto; 
+      max-width: 1200px; 
+      color: #FFFFFF;
+}
+
+img {
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 20px;;
+}
+
+.over{
+
+    padding-left: 25px;
+}
+
+.header-img {
+    
+    height: 200px;
+    width:1280px;
+    background: url("banner.jpg") repeat ;
+    background-attachment: fixed;
+    background-size: auto;
+     
+    
+  }

@@ -1,0 +1,80 @@
+<div class="container">
+        <h1>Welcome to the <strong><%= title %></strong> page</h1>
+</div>
+
+<main>
+<h2> Contact Us</h2>
+<form method="post" action="mailto:sreyas@sreyasrealtor.ca">
+	
+
+
+
+
+	<table style="width: 100%">
+		<tr>
+			<td>First Name : </td>
+			<td><input name="txtFirstName" tabindex="1" type="text"></td>
+		</tr>
+		<tr>
+			<td>Last Name:</td>
+			<td><input name="txtLastName" tabindex="3" type="text"></td>
+		</tr>
+		<tr>
+			<td>Email :</td>
+			<td><input name="txtEmail" tabindex="5" type="email" required="required"></td>
+		</tr>
+		<tr>
+			<td>Mobile :</td>
+			<td><input name="txtMobile" tabindex="7" type="text"></td>
+		</tr>
+		<tr>
+			<td>Type of Property:</td>
+			<td><select name="Select1" style="width: 123px" tabindex="9">
+					<option>Condominium</option>
+					<option>Townhouse</option>
+					<option>Semi Detached</option>
+					<option>Detached</option>
+				</select></td>
+		</tr>
+		<tr>
+			<td>No. of Bedroom : </td>
+			<td><select name="Select2" style="width: 113px" tabindex="11">
+					<option>0</option>
+					<option value="1">1+</option>
+					<option value="2">2+</option>
+					<option value="3">3+</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Price range :</td>
+			<td><select name="lstPrice" tabindex="13">
+			<option>100,000-300,000</option>
+			<option>500,00-800,000</option>
+			<option>800,00-1,000,000</option>
+			<option>300,000 - 500,000</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Comments</td>
+			<td><textarea cols="50" name="txtComments" rows="7" tabindex="15"></textarea></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel ">
+			<input name="btnSubmit" type="submit" value="Submit Inquiry" tabindex="17"></td>
+			<td>
+			<input name="btnReset" tabindex="19" type="reset" value="Clear Form"></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+	
+
+
+
+
+</form>
+	
+</main>

@@ -1,0 +1,88 @@
+#allPage { 
+	width: 80%; 
+      margin: auto; 
+      max-width: 1200px; 
+      display: grid; 
+	/*grid-template-columns: 150px auto auto;
+	grid-template-rows: auto auto auto ; */
+}
+
+body{
+    background-image: url("homepage.jpg");
+}
+
+
+
+nav ul { 
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: nowrap; 
+    color: #FFFFFF;
+    position: absolute;
+}
+
+
+
+.navcustom{
+
+    width: 90%; 
+      margin: auto; 
+      max-width: 1200px; 
+      color: #FFFFFF;
+}
+
+img {
+    padding-left: 1px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 20px;;
+}
+
+.over{
+
+    padding-left: 25px;
+}
+
+.header-img {
+    
+    height: 200px;
+    width:1280px;
+    background: url("banner.jpg") repeat ;
+    background-attachment: fixed;
+    background-size: auto;
+     
+    
+  }
+  ul{
+      list-style: none;
+  }
+
+  #img_listing {
+	margin: 10px;
+	float: right;
+	padding-left: 5px;
+}
+
+/* unvisited link */
+nav a:link {
+    color: red;
+  }
+  
+  /* visited link */
+ nav a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+ nav a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+ nav a:active {
+    color: blue;
+  }
+
+  .homealign{
+      padding-left: 100px;
+  }
